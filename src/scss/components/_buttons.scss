@@ -1,0 +1,32 @@
+// refresh, metric and imperial units buttons
+
+#buttons {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+
+#buttons>button {
+    width: 30px;
+    height: 30px;
+    color: $black;
+    border: 2px solid $black;
+    border-radius: 50%;
+    outline: $black;
+    font-size: $fs-16;
+    font-weight: 900;
+    text-align: center;
+    margin: 20px 5px 0px 5px;
+    background-color: blue;
+
+}
+
+#buttons>button:hover {
+    cursor: pointer;
+}
+
+#buttons>button:hover,
+#buttons>button:focus {
+    box-shadow: 4px 2px 5px $blue;
+    border-color: $black;
+}
